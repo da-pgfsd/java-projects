@@ -136,6 +136,8 @@ public class FileManagement {
 								
 						}
 					     else {
+					    	 FileWriter writer =new FileWriter(file);
+							  writer.close();	
 					      System.out.println("File is successfully created in the directory \n");
 					     }
 				
@@ -159,6 +161,7 @@ public class FileManagement {
 								
 				
 				s.close();
+				
 				
          }
 			
