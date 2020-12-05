@@ -31,7 +31,7 @@ public class FileManagement {
 		
 			} catch (Exception  e) {
 				
-				System.err.println("Exception.!.. : "+e.getMessage()+"\n");
+				System.err.println("Exception Found!.. : "+e.getMessage()+"\n");
 				Main_Menu();
 		    }
 	  }
@@ -44,7 +44,7 @@ public class FileManagement {
 		    System.out.println("\n  ***********\n");
 		    System.out.println("    MAIN MENU:");
 		    System.out.println("\n  ***********\n");
-		    System.out.println(" 1: Display all files from  a specific directory");
+		    System.out.println(" 1: Display all files in  a specific directory");
 	        System.out.println(" 2: Add a file to the directory");
 	        System.out.println(" 3: Delete a file from the directory");
 	        System.out.println(" 4: Search for a file in the directory");
