@@ -209,11 +209,12 @@ public class FileManagement {
 		public static void Search_File() throws Exception {
 			
 		     s = new Scanner(System.in);
-			System.out.println("Enter the directory of the file you like to search: \n");
+			System.out.println("Enter the directory name of the file you like to search: \n");
 			String dirname=s.next();
 			System.out.println("Enter the file name you like to search: \n ");
 			String fname=s.next();
 			
+							
 			if(Files.exists(Paths.get(dirname, fname))) {
 				System.out.println("File "+fname+ " is successfully found in directory " +dirname+ "\n");
 				ReturnToMain();
