@@ -47,7 +47,7 @@ public class FileManagement {
 		    System.out.println(" 1: Display all files in  a specific directory");
 	        System.out.println(" 2: Add a file to the directory");
 	        System.out.println(" 3: Delete a file from the directory");
-	        System.out.println(" 4: Search for a file in the directory");
+	        System.out.println(" 4: Search for a file in a specific directory");
 	        System.out.println(" 5: Exit\n");
 	        
 	        System.out.println(" Please enter the code for your option (1/2/3/4/5): \n");
