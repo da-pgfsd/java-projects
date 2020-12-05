@@ -142,7 +142,7 @@ public class FileManagement {
 					     }
 				
 				//Additional logic to write to the file with content from user.
-                        System.out.println("Do you like to add your file content?. Press 1 for Yes and 0 for No:");
+                        System.out.println("Do you like to add your file content?. Press 1 for Yes and 0 for No: \n");
                         
                         int final_option =s.nextInt();
                         if (final_option==1) {
@@ -164,9 +164,8 @@ public class FileManagement {
 				
 				
          }
-			
-			
-		//Write to a file		
+						
+		//Write content to a given file		
         private static void Write_Files(File file) throws Exception{
 	
         	System.out.println("Please enter file content: \n");
