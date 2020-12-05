@@ -256,7 +256,7 @@ public class FileManagement {
 			    	 System.out.println("Sorry, there are NO files in the selected directory...");}
 			    
 			   }else{
-					System.out.println("Directory entered does NOT exist...");}
+					System.out.println("Sorry, directory entered does NOT exist...");}
 				
 			    ReturnToMain();
 			    
